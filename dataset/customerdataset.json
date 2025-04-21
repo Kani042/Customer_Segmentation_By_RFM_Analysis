@@ -1,0 +1,19 @@
+{
+	"name": "customerdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "kani042/Customer_Segmentation_By_RFM_Analysis"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
