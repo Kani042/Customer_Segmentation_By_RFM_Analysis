@@ -8,9 +8,10 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "Online Retail",
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "kani042/Customer_Segmentation_By_RFM_Analysis"
+				"relativeUrl": "kani042/Customer_Segmentation_By_RFM_Analysis/main/Online%20Retail.xlsx"
 			},
 			"firstRowAsHeader": true
 		},
