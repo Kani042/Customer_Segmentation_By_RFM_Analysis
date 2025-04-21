@@ -1,0 +1,12 @@
+{
+	"name": "customerstoragelinked",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://customerrawstorage.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU0RUIyQjU2LUY2NDgtNEIzMS04Mjg2LTU1MENFMzY1RjY5QV84ZDAyMTJhZS04YzE5LTRhYmYtYmVkZi1hMzI1ZDc2NDBhNjIiDQp9"
+		}
+	}
+}
